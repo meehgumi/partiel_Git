@@ -27,8 +27,40 @@ nav {
     text-decoration: none;
     font-size: 20px;
     margin: 0 15px;
+    position: relative;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
 }
 
 .menu:hover {
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: rgb(53, 131, 233);
+    padding: 10px 0;
+    width: 150px;
+}
+
+.menu:hover .submenu {
+    display: block;
+}
+
+.submenu a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    padding: 5px 20px;
+}
+
+.submenu a:hover {
     background-color: rgba(255, 0, 0, 0.2);
 }
