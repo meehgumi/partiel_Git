@@ -11,20 +11,20 @@ body {
 }
 
 header {
-    background-color: #333;
-    padding: 10px 0;
+    background-color: rgb(53, 131, 233);
+    padding: 15px 0;
 }
 
 nav {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     list-style: none;
+    padding-left: 20px;
 }
 
 .menu {
     color: white;
     text-decoration: none;
-    font-size: 18px;
-    text-transform: uppercase;
-    margin: 0 20px;
+    font-size: 20px;
+    margin: 0 15px;
 }
